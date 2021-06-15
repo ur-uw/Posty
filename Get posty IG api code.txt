@@ -1,0 +1,37 @@
+Getting code:
+
+https://api.instagram.com/oauth/authorize
+  ?client_id=209058007747847
+  &redirect_uri=https://flutter-practice-283412.firebaseapp.com/__/auth/handler
+  &scope=user_profile,user_media
+  &response_type=code
+
+
+Exchage code:
+
+curl -X POST \
+  https://api.instagram.com/oauth/access_token \
+  -F client_id=209058007747847 \
+  -F client_secret=0f3064e7be10e69748623d5d10ec8990 \
+  -F grant_type=authorization_code \
+  -F redirect_uri=https://flutter-practice-283412.firebaseapp.com/__/auth/handler \
+  -F code={code}
+
+
+
+ur.uw access token and userid
+{
+"access_token": "IGQVJVM2hEbUMwcXlscEpxUUk5ajlRRkh0TzUyWEFUeFdxOWdrdklzdVk1dWw2X0VCd3ZAjNjdKY1BYTTNiRWJuVnBPa19SR0Y4OGFacVk5MlgyS2ZASM2RKT2NJMVk1bGJHNmVqRHUya2piX3BWWkNnSDc1ZA3lPU2k2a2Q0", 
+"user_id": 17841403551438137
+}
+
+
+
+
+curl -X POST \
+  https://api.instagram.com/oauth/access_token \
+  -F client_id=209058007747847 \
+  -F client_secret=0f3064e7be10e69748623d5d10ec8990 \
+  -F grant_type=authorization_code \
+  -F redirect_uri=https://flutter-practice-283412.firebaseapp.com/__/auth/handler \
+  -F code=AQBtZD4P6vV896SWWu17BI-OXF3FwGjaw1wkQv_DMP1LjPzAXLRJieolPKtWcvgvsIVnoS6uC4SUJSl7_9AJJYTvTH7-EIjLxT7Aa2A6zztFf3WQ8jdkI4L5VBaIsiIvpeOH7TkeXDQgRQUUcRFxcPE3o3u4BwtlxtUgf-wIAMsiruVDbn0OwNGxakTfiS10V4_brucm2FzswmuYyYDfrfVBJkRVhd7OIncJEAquNtSkAQ

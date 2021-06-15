@@ -17,7 +17,7 @@ class AppThemes {
   static String font2 = "Roboto";
   //constants color range for light theme
   //main color
-  static const Color _lightPrimaryColor = orange;
+  static const Color _lightPrimaryColor = whiteLilac;
 
   //Background Colors
   static const Color _lightBackgroundColor = whiteLilac;
@@ -29,9 +29,7 @@ class AppThemes {
   static const Color _lightBackgroundSuccessColor = juneBud;
 
   //Text Colors
-  static const Color _lightTextColor = Colors.black;
-  static const Color _lightAlertTextColor = Colors.black;
-  static const Color _lightTextSecondaryColor = Colors.black;
+  static const Color _lightTextColor = Color(0xff393838);
 
   //Border Color
   static const Color _lightBorderColor = lightGreyText;
@@ -82,7 +80,8 @@ class AppThemes {
     bodyText2: TextStyle(fontSize: 14.0, color: Colors.grey),
     button: TextStyle(
         fontSize: 15.0, color: _lightTextColor, fontWeight: FontWeight.w600),
-    headline6: TextStyle(fontSize: 16.0, color: _lightTextColor),
+    headline6: TextStyle(
+        fontSize: 32.0, fontWeight: FontWeight.w700, color: _lightTextColor),
     subtitle1: TextStyle(fontSize: 16.0, color: _lightTextColor),
     caption: TextStyle(fontSize: 12.0, color: _lightBackgroundAppBarColor),
   );
@@ -96,6 +95,7 @@ class AppThemes {
       backgroundColor: _lightPrimaryColor,
     ),
     appBarTheme: AppBarTheme(
+      elevation: 0,
       color: _lightBackgroundAppBarColor,
       iconTheme: IconThemeData(color: _lightTextColor),
       textTheme: _lightTextTheme,
@@ -168,7 +168,8 @@ class AppThemes {
     bodyText2: TextStyle(fontSize: 14.0, color: Colors.grey),
     button: TextStyle(
         fontSize: 15.0, color: _darkTextColor, fontWeight: FontWeight.w600),
-    headline6: TextStyle(fontSize: 16.0, color: _darkTextColor),
+    headline6: TextStyle(
+        fontSize: 32.0, fontWeight: FontWeight.w700, color: _darkTextColor),
     subtitle1: TextStyle(fontSize: 16.0, color: _darkTextColor),
     caption: TextStyle(fontSize: 12.0, color: _darkBackgroundAppBarColor),
   );
@@ -185,6 +186,7 @@ class AppThemes {
       backgroundColor: _darkPrimaryColor,
     ),
     appBarTheme: AppBarTheme(
+      elevation: 0,
       color: _darkBackgroundAppBarColor,
       iconTheme: IconThemeData(color: _darkTextColor),
       textTheme: _darkTextTheme,

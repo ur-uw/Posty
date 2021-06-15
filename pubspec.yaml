@@ -16,6 +16,7 @@ dependencies:
   # firebase_analytics: ^7.1.1 no nullsafe... skip it for now
   firebase_auth: ^1.4.1
   cloud_firestore: ^1.0.7
+#  Ui packages
 
   # google_sign_in:
   # apple_sign_in:
