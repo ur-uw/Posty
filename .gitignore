@@ -45,3 +45,6 @@ app.*.map.json
 # added by delay
 /ios/Flutter/
 /ios/build/
+
+# Custom files
+IG token generation.txt

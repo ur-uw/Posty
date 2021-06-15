@@ -3,20 +3,21 @@ import 'package:flutter/material.dart';
 class AppThemes {
   AppThemes._();
 
-  static const Color dodgerBlue = Color.fromRGBO(29, 161, 242, 1);
-  static const Color whiteLilac = Color.fromRGBO(248, 250, 252, 1);
+  static const Color orange = Color(0xFFEC904C);
+  static const Color whiteLilac = Color(0xFFF5F5F5);
   static const Color blackPearl = Color.fromRGBO(30, 31, 43, 1);
   static const Color brinkPink = Color.fromRGBO(255, 97, 136, 1);
   static const Color juneBud = Color.fromRGBO(186, 215, 97, 1);
   static const Color white = Color.fromRGBO(255, 255, 255, 1);
-  static const Color nevada = Color.fromRGBO(105, 109, 119, 1);
-  static const Color ebonyClay = Color.fromRGBO(40, 42, 58, 1);
+  static const Color lightGreyText = Color(0xffBDBDBD);
+  static const Color ebonyClay = Color(0xff3D3C3C);
+  static const Color darkGrey = Color(0xff666666);
 
   static String font1 = "ProductSans";
   static String font2 = "Roboto";
   //constants color range for light theme
   //main color
-  static const Color _lightPrimaryColor = dodgerBlue;
+  static const Color _lightPrimaryColor = orange;
 
   //Background Colors
   static const Color _lightBackgroundColor = whiteLilac;
@@ -33,10 +34,10 @@ class AppThemes {
   static const Color _lightTextSecondaryColor = Colors.black;
 
   //Border Color
-  static const Color _lightBorderColor = nevada;
+  static const Color _lightBorderColor = lightGreyText;
 
   //Icon Color
-  static const Color _lightIconColor = nevada;
+  static const Color _lightIconColor = darkGrey;
 
   //form input colors
   static const Color _lightInputFillColor = _lightBackgroundSecondaryColor;
@@ -44,7 +45,7 @@ class AppThemes {
   static const Color _lightBorderErrorColor = brinkPink;
 
   //constants color range for dark theme
-  static const Color _darkPrimaryColor = dodgerBlue;
+  static const Color _darkPrimaryColor = orange;
 
   //Background Colors
   static const Color _darkBackgroundColor = ebonyClay;
@@ -65,10 +66,10 @@ class AppThemes {
   static const Color _darkTextSecondaryColor = Colors.black;
 
   //Border Color
-  static const Color _darkBorderColor = nevada;
+  static const Color _darkBorderColor = lightGreyText;
 
   //Icon Color
-  static const Color _darkIconColor = nevada;
+  static const Color _darkIconColor = lightGreyText;
 
   static const Color _darkInputFillColor = _darkBackgroundSecondaryColor;
   static const Color _darkBorderActiveColor = _darkPrimaryColor;
