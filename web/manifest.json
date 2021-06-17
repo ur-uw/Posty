@@ -1,8 +1,8 @@
 {
-    "name": "flutter_starter",
-    "short_name": "flutter_starter",
+    "name": "posty",
+    "short_name": "posty",
     "start_url": ".",
-    "display": "minimal-ui",
+    "display": "standalone",
     "background_color": "#0175C2",
     "theme_color": "#0175C2",
     "description": "A new Flutter project.",
