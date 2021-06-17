@@ -1,5 +1,6 @@
 class Globals {
   static final String defaultLanguage = 'en';
+  static final String appFontFamily = 'OpenSans';
 //List of languages that are supported.  Used in selector.
 //Follow this plugin for translating a google sheet to languages
 // https://github.com/aloisdeniel/flutter_sheet_localization

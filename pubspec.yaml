@@ -21,3 +21,11 @@ dev_dependencies:
 
 flutter:
   uses-material-design: true
+  fonts:
+    - family: OpenSans
+      fonts:
+        - asset: assets/fonts/opensans/OpenSans-Regular.ttf
+        - asset: assets/fonts/opensans/OpenSans-Italic.ttf
+          style: italic
+        - asset: assets/fonts/opensans/OpenSans-Bold.ttf
+        - asset: assets/fonts/opensans/OpenSans-Light.ttf

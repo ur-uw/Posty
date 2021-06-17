@@ -9,6 +9,7 @@ import 'dart:io';
 //? Widgets
 part 'widgets/text_widgets.dart';
 part 'widgets/list_widgets.dart';
+part 'widgets/platform_icon.dart';
 //? Abstracts
 part 'abstracts/list_state_abstract.dart';
 part 'abstracts/responsive_widget_abstract.dart';
